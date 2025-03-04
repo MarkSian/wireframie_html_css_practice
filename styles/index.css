@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;   
+   
+    
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+nav {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #f7f4f4; /* change to color that of the wireframe */
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header .button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    margin-bottom: 5px;
+}
+
+.pre-order {
+    padding: 20px;
+    text-align: center;
+}
+
+.pre-order h2 {
+    margin-bottom: 10px;
+}
+
+.pre-order ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pre-order ul li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
