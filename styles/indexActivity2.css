@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8F2DE;
+    font-family: 'Saira Semi Condensed';
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.submission-form {
+    background-color: #D84040;
+    border: 1px solid #504B38;
+    box-shadow: 5px 5px 5px #685b5b;
+    padding: 20px;
+    position: relative; 
+    text-align: center;
+}
+
+.account-icon {
+    position: absolute; /* Position the icon relative to the form */
+    top: -40px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 80px; 
+    height: 80px; 
+    background-color: #D84040; 
+    border-radius: 50%;
+    border: 2px solid #504B38; 
+    box-shadow: 5px 5px 5px #685b5b;
+    opacity: 0.9;
+}
+
+h1 {
+    margin-top: 60px; 
+    margin-bottom: 25px;
+    background-color: #D84040;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #D84040;  
+    margin: 10px; 
+}
+
+label {
+    background-color: #D84040;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #685b5b;
+    border: 1px solid #ccc;
+    background-color: #A31D1D; /* Updated color */
+    margin-bottom: 10px;
+}
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    background-color: #D84040;
+}
+
+a:hover {
+    color: #B9B28A;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #685b5b;
+    box-shadow: 1px 1px 1px #685b5b;
+    width: 20em;
+    color: white;
+    margin: 30px 0;  
+}
+
+button:hover {
+    background-color: #504B38;
+    cursor: pointer; 
+}
+
+.submission-form input,
+.submission-form a {
+    margin-bottom: 10px;
+}
+
+.register-email-field {
+    width: 20em;
+}
+
+.login-username-field {
+    text-align: center;
+    width: 20em;
+}
+
+.password-container {
+    background-color: #D84040;
+    position: relative;
+    display: flex;
+    align-items: center; 
+    flex-direction: row; 
+}
+
+.password-container input {
+    width: 20em;
+    text-align: center;
+}
+
+.links {
+    background-color: #D84040;
+    text-align: center;
+}

@@ -3,38 +3,36 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;   
-   
-    
+    color: #333;
 }
 
 .container {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
 }
 
 nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns the anchor tags to the right */
     color: #fff;
     padding: 10px;
+    text-align: center;
     border: 2px solid #f7f4f4; /* change to color that of the wireframe */
     background-color: #333;
-   
-    
-    
+    position: sticky;
+    top: 0;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
-    
 }
 
 header {
     background-color: #333;
     color: #fff;
-    
+    text-align: center;
 }
 
 header h1 {
@@ -47,14 +45,59 @@ header p {
     text-align: center;
 }
 
+.hero-section {
+    position: relative;
+    height: 70vh; /* Full viewport height */
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2; /* Elements in this section will remain visible  */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
 header .button {
     display: inline-block;
     margin: 10px 5px;
     padding: 10px 20px;
-    background-color: #555;
+    background-color: #ff5722;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1.1em;
 }
 
 .content {
