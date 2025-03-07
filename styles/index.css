@@ -20,7 +20,8 @@ nav {
     border: 2px solid #f7f4f4; /* change to color that of the wireframe */
     background-color: #333;
     position: sticky;
-    top: 0;
+    top: 0; /* Ensures the nav bar sticks to the top */
+    z-index: 2; /* Ensures the nav bar stays above other content */
 }
 
 nav a {
